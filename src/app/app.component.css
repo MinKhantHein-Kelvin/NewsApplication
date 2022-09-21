@@ -1,0 +1,32 @@
+mat-sidenav-container {
+  height: calc(100vh - 65px);
+}
+mat-sidenav{
+  border-right: none;
+  width: 280px;
+  text-align: center;
+}
+.avatar{
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+}
+.menu-button{
+  width: 100%;
+  /* justify-content: start; */
+  align-items: center;
+  display: flex;
+  margin: 10px 0;
+}
+.menu-button:hover{
+  background-color: red;
+  color: greenyellow;
+}
+mat-icon {
+  margin-right: 8px;
+}
+mat-divider {
+  margin: 20px 0px;
+  background-color: #fff;
+}
